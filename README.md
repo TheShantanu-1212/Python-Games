@@ -2,4 +2,4 @@
 
 - Pong
 - Snake
-- Guess the states
+- 50 States Game
