@@ -1,5 +1,5 @@
 # A collection of Python games built using the Turtle Library
 
-- Pong
-- Snake
-- 50 States Game
+- Pong :ping_pong:
+- Snake :snake:
+- 50 States Game :world_map:
