@@ -33,10 +33,9 @@ while game_is_on:
         prompt="Name a state",
     ).title()
     if user_answer == "Exit":
-        unguessed_states = []
-        for state in state_names:
-            if state not in guessed_states:
-                unguessed_states.append(state)
+        unguessed_states = [
+            state for state in state_names if state not in guessed_states
+        ]
         unguessed_state_data = pandas.DataFrame(unguessed_states)
         unguessed_state_data.to_csv("unguessed_states.csv")
         break
